@@ -104,7 +104,7 @@ A ferramenta `open_mind_search` devolve o trecho encontrado e o caminho da nota.
 
 </details>
 
-[Explorar a implementação de open_mind_search](https://github.com/nicolasponciano/open-mind/search?q=open_mind_search&type=code)
+[Explorar a implementação de open_mind_search](https://github.com/nicolasponciano/open-mind/blob/564eddbb8783ad0ce69ae436d0c6106683f94beb/src/tools/open-mind-tools.ts#L285)
 
 Também desenvolvo o [bug-hunter](https://github.com/nicolasponciano/bug-hunter), um agente de revisão de código para Codex e OpenCode.
 
