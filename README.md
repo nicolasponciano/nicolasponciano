@@ -1,11 +1,51 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/painel-360.png">
-  <img width="100%" src="assets/painel-960.png" alt="Nicolas Ponciano. Desenvolvo sistemas web com .NET e SQL Server. Painel de repositórios públicos, linguagens e atividade no GitHub.">
-</picture>
+<img align="right" width="60" src="assets/logo-dark.svg" alt="Monograma de Nicolas Ponciano">
 
-<details><summary>Ler os dados do painel</summary>
+# Nicolas Ponciano
 
-62 contribuições · 2025-11-23 a 2026-11-23. Tenho 24 repositórios públicos. Minha maior sequência nesse período foi de 8 dias. Linguagens por volume de código nos meus repositórios públicos, excluindo forks: JavaScript 39.9%, C# 23.7%, ASP.NET 12.8%, TypeScript 9.8%.
+Desenvolvo sistemas web com .NET e SQL Server.
+
+## Meu GitHub
+
+Selecione um card para explorar os dados de 23/11/2025 a 23/11/2026.
+
+<details>
+<summary><picture><img width="620" src="assets/painel/repos.svg" alt="Repositórios públicos: 24. Expandir detalhes"></picture></summary>
+
+[Explorar meus repositórios](https://github.com/nicolasponciano?tab=repositories) · [Portfólio](https://github.com/nicolasponciano/nicolasponciano.github.io) · [Open Mind](https://github.com/nicolasponciano/open-mind)
+
+</details>
+
+<details>
+<summary><picture><img width="620" src="assets/painel/linguagens.svg" alt="Linguagens: 9. Expandir detalhes"></picture></summary>
+
+Distribuição por bytes nos meus repositórios públicos, excluindo forks.
+
+| Linguagem | Por volume de código | Projeto para explorar |
+| --- | ---: | --- |
+| JavaScript | 39,9% | [ProjectFit](https://github.com/nicolasponciano/ProjectFit) |
+| C# | 23,7% | [ProjectFit](https://github.com/nicolasponciano/ProjectFit) |
+| ASP.NET | 12,8% | [ProjectFit](https://github.com/nicolasponciano/ProjectFit) |
+| TypeScript | 9,8% | [open-mind](https://github.com/nicolasponciano/open-mind) |
+| Python | 4,6% | [open-mind](https://github.com/nicolasponciano/open-mind) |
+| CSS | 3,7% | [nicolasponciano.github.io](https://github.com/nicolasponciano/nicolasponciano.github.io) |
+
+</details>
+
+<details>
+<summary><picture><img width="620" src="assets/painel/sequencia.svg" alt="Maior sequência: 8 dias. Expandir detalhes"></picture></summary>
+
+De 12/11/2026 a 19/11/2026.
+
+[12/11 (4)](https://github.com/nicolasponciano?tab=overview&from=2026-11-12&to=2026-11-12) · [13/11 (1)](https://github.com/nicolasponciano?tab=overview&from=2026-11-13&to=2026-11-13) · [14/11 (14)](https://github.com/nicolasponciano?tab=overview&from=2026-11-14&to=2026-11-14) · [15/11 (2)](https://github.com/nicolasponciano?tab=overview&from=2026-11-15&to=2026-11-15) · [16/11 (2)](https://github.com/nicolasponciano?tab=overview&from=2026-11-16&to=2026-11-16) · [17/11 (5)](https://github.com/nicolasponciano?tab=overview&from=2026-11-17&to=2026-11-17) · [18/11 (5)](https://github.com/nicolasponciano?tab=overview&from=2026-11-18&to=2026-11-18) · [19/11 (2)](https://github.com/nicolasponciano?tab=overview&from=2026-11-19&to=2026-11-19)
+
+</details>
+
+<details>
+<summary><picture><img width="620" src="assets/painel/atividade.svg" alt="Contribuições: 62. Expandir detalhes"></picture></summary>
+
+Escolha um mês para explorar a atividade no GitHub.
+
+[11/2025 (0)](https://github.com/nicolasponciano?tab=overview&from=2025-11-01&to=2025-11-30) · [12/2025 (1)](https://github.com/nicolasponciano?tab=overview&from=2025-12-01&to=2025-12-31) · [01/2026 (0)](https://github.com/nicolasponciano?tab=overview&from=2026-01-01&to=2026-01-31) · [02/2026 (0)](https://github.com/nicolasponciano?tab=overview&from=2026-02-01&to=2026-02-28) · [03/2026 (0)](https://github.com/nicolasponciano?tab=overview&from=2026-03-01&to=2026-03-31) · [04/2026 (0)](https://github.com/nicolasponciano?tab=overview&from=2026-04-01&to=2026-04-30) · [05/2026 (0)](https://github.com/nicolasponciano?tab=overview&from=2026-05-01&to=2026-05-31) · [06/2026 (12)](https://github.com/nicolasponciano?tab=overview&from=2026-06-01&to=2026-06-30) · [07/2026 (0)](https://github.com/nicolasponciano?tab=overview&from=2026-07-01&to=2026-07-31) · [08/2026 (0)](https://github.com/nicolasponciano?tab=overview&from=2026-08-01&to=2026-08-31) · [09/2026 (0)](https://github.com/nicolasponciano?tab=overview&from=2026-09-01&to=2026-09-30) · [10/2026 (0)](https://github.com/nicolasponciano?tab=overview&from=2026-10-01&to=2026-10-31) · [11/2026 (49)](https://github.com/nicolasponciano?tab=overview&from=2026-11-01&to=2026-11-23)
 
 </details>
 
