@@ -1,21 +1,25 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/atlas/dark.svg">
-  <img src="assets/atlas/light.svg" width="100%" alt="Nicolas Ponciano">
-</picture>
+<img align="right" width="34%" src="assets/computador-nicolas.svg" alt="Computador com meu monograma em ciano e lima na tela">
 
-**Desenvolvedor de software full stack.** Trabalho com .NET e SQL Server em sistemas web corporativos. Também crio ferramentas para usar no dia a dia e curso pós-graduação em Inteligência Artificial.
+## Olá, sou o Nicolas Ponciano
 
-[Portfólio](https://nicolasponciano.github.io/) · [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
+Desenvolvo sistemas web corporativos com **.NET e SQL Server**. Atualmente curso pós-graduação em Inteligência Artificial.
 
-## Projetos
+💻 **Linguagens que uso:** C#, TypeScript e JavaScript.<br>
+🛠️ **No dia a dia:** APIs, bancos relacionais e integrações.<br>
+✉️ **Onde me encontrar:** [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/) · [Portfólio](https://nicolasponciano.github.io/)
 
-<a href="#marcai"><img src="assets/atlas/marcai.svg" width="23%" alt="Ir para MarcAi"></a> <a href="#seirei"><img src="assets/atlas/seirei.svg" width="23%" alt="Ir para Seirei"></a> <a href="#open-mind"><img src="assets/atlas/open-mind.svg" width="23%" alt="Ir para Open Mind"></a> <a href="#clienteapi"><img src="assets/atlas/clienteapi.svg" width="23%" alt="Ir para ClienteAPI"></a>
+<br clear="all">
 
-### MarcAi
+## Meus projetos
 
-Criei uma agenda para salões, clínicas e estúdios. A página pública de cada estabelecimento mostra os horários disponíveis por profissional e serviço.
+<a href="https://marcai-demo.netlify.app/"><img align="left" width="76" height="76" src="assets/projeto-agenda.svg" alt="Abrir MarcAi"></a>
 
-[Experimentar o agendamento](https://marcai-demo.netlify.app/) · <sub>Next.js · TypeScript · PostgreSQL</sub>
+**MarcAi**<br>
+Criei uma agenda para salões, clínicas e estúdios. A página pública de cada estabelecimento mostra os horários disponíveis por profissional e serviço.<br>
+`Next.js` `TypeScript` `PostgreSQL`<br>
+[Experimentar o agendamento](https://marcai-demo.netlify.app/)
+
+<br clear="all">
 
 <details>
 <summary>Como evito duas reservas no mesmo horário?</summary>
@@ -26,13 +30,14 @@ Calculo a disponibilidade a partir da agenda e da duração do serviço. Antes d
 
 </details>
 
----
+<a href="https://nicolasponciano.github.io/#projeto/seirei"><img align="left" width="76" height="76" src="assets/projeto-foco.svg" alt="Abrir Seirei"></a>
 
-### Seirei
+**Seirei**<br>
+Fiz um aplicativo para trabalhar em uma tarefa por vez e continuar de onde parei ao trocar o computador pelo celular.<br>
+`Next.js` `TypeScript` `Supabase`<br>
+[Ver o modo foco](https://nicolasponciano.github.io/#projeto/seirei)
 
-Fiz um aplicativo para trabalhar em uma tarefa por vez e continuar de onde parei ao trocar o computador pelo celular.
-
-[Ver o modo foco](https://nicolasponciano.github.io/#projeto/seirei) · <sub>Next.js · TypeScript · Supabase</sub>
+<br clear="all">
 
 <details>
 <summary>E se a IA não conseguir ordenar as tarefas?</summary>
@@ -43,13 +48,14 @@ Guardo a ordem de inserção no Supabase. Confiro a sequência sugerida pela IA 
 
 </details>
 
----
+<a href="https://github.com/nicolasponciano/open-mind"><img align="left" width="76" height="76" src="assets/projeto-notas.svg" alt="Abrir Open Mind"></a>
 
-### Open Mind
+**Open Mind**<br>
+Escrevi um plugin para consultar minhas notas do Obsidian durante uma sessão do OpenCode.<br>
+`TypeScript` `Node.js` `OpenCode`<br>
+[Explorar o plugin](https://github.com/nicolasponciano/open-mind)
 
-Escrevi um plugin para consultar minhas notas do Obsidian durante uma sessão do OpenCode.
-
-[Explorar o plugin](https://github.com/nicolasponciano/open-mind) · <sub>TypeScript · Node.js · OpenCode</sub>
+<br clear="all">
 
 <details>
 <summary>Quando o agente pode alterar uma nota?</summary>
@@ -58,13 +64,14 @@ Restrinjo a leitura à pasta do vault e deixo a escrita desabilitada por padrão
 
 </details>
 
----
+<a href="https://github.com/nicolasponciano/ClienteAPI"><img align="left" width="76" height="76" src="assets/projeto-api.svg" alt="Abrir ClienteAPI"></a>
 
-### ClienteAPI
+**ClienteAPI**<br>
+Integrei o ViaCEP a uma API de cadastro de clientes. Posso consultar um endereço pelo CEP e localizar clientes cadastrados na mesma região postal.<br>
+`C#` `.NET 8` `SQL Server`<br>
+[Ler a implementação em C#](https://github.com/nicolasponciano/ClienteAPI)
 
-Integrei o ViaCEP a uma API de cadastro de clientes. Posso consultar um endereço pelo CEP e localizar clientes cadastrados na mesma região postal.
-
-[Ler a implementação em C#](https://github.com/nicolasponciano/ClienteAPI) · <sub>C# · .NET 8 · SQL Server</sub>
+<br clear="all">
 
 <details>
 <summary>O que acontece depois da consulta ao ViaCEP?</summary>
