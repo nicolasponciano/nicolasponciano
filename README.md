@@ -1,24 +1,30 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/capa-dark.png">
-  <img src="assets/capa-light.png" width="100%" alt="Cubo com os três N de Nicolas Ponciano">
+  <img src="assets/capa-light.png" width="100%" alt="Nicolas Ponciano e o cubo com os três N">
 </picture>
 
-Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server. Na [ClienteAPI](https://github.com/nicolasponciano/ClienteAPI), usei C# para integrar o cadastro de clientes ao ViaCEP e permitir a busca por CEP.
+Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server. Na ClienteAPI, integrei o cadastro de clientes ao ViaCEP para consultar endereços e buscar clientes pelo CEP.
+
+**[Ver a API de clientes em C#](https://github.com/nicolasponciano/ClienteAPI)** · [Meu portfólio](https://nicolasponciano.github.io/) · [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
 
 ## MarcAi
 
-[![Agenda semanal do MarcAi com os horários de atendimento](assets/agenda.png)](https://marcai-demo.netlify.app/)
+Criei uma agenda para salões, clínicas e estúdios. Os horários disponíveis dependem do profissional e da duração do serviço. Antes de confirmar a reserva, verifico no servidor se outra pessoa já marcou aquele horário.
 
-Criei uma agenda para salões, clínicas e estúdios com Next.js, TypeScript e PostgreSQL. Na página de agendamento, os horários disponíveis dependem do profissional e da duração do serviço. No servidor, verifico se o horário continua livre antes de confirmar a reserva. [Abrir a demo](https://marcai-demo.netlify.app/)
+[![Agenda semanal do MarcAi com blocos de atendimento por horário](assets/agenda.png)](https://marcai-demo.netlify.app/)
+
+[Experimentar o agendamento](https://marcai-demo.netlify.app/) · [Como construí o MarcAi com Next.js, TypeScript e PostgreSQL](https://nicolasponciano.github.io/#projeto/marcai)
 
 ## Seirei
 
-<a href="https://nicolasponciano.github.io/#projeto/seirei"><img src="assets/foco.png" width="440" alt="Modo foco do Seirei com uma tarefa e as opções Concluir e Pular"></a>
+Fiz o Seirei para acompanhar uma tarefa por vez, no computador ou no celular. A IA sugere por onde começar. Se a chamada falhar, o aplicativo segue a ordem em que as tarefas foram adicionadas.
 
-Fiz um aplicativo que mostra uma tarefa por vez e sincroniza o dia entre celular e computador. Usei Next.js, TypeScript e Supabase. A IA sugere a ordem das tarefas. Se a chamada falhar, o aplicativo segue a ordem em que elas foram adicionadas. [Ver as telas no portfólio](https://nicolasponciano.github.io/#projeto/seirei)
+<a href="https://nicolasponciano.github.io/#projeto/seirei"><img src="assets/foco.png" width="520" alt="Tarefa Desenhar a tela de boas-vindas, com as opções Concluir e Pular"></a>
+
+[Ver o Seirei no portfólio](https://nicolasponciano.github.io/#projeto/seirei) · Next.js, TypeScript e Supabase
 
 ## Open Mind
 
-Escrevi um plugin em TypeScript para consultar minhas notas do Obsidian dentro do OpenCode. Limitei a busca à pasta do vault e deixei a escrita desabilitada por padrão. [Ler o código](https://github.com/nicolasponciano/open-mind)
+Escrevi um plugin em TypeScript para consultar minhas notas do Obsidian dentro do OpenCode. Limitei a busca à pasta do vault e deixei a escrita desabilitada por padrão.
 
-[Portfólio](https://nicolasponciano.github.io/) · [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
+[Ler o código do Open Mind](https://github.com/nicolasponciano/open-mind)
