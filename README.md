@@ -3,8 +3,6 @@
   <img src="assets/capa-light.png" width="100%" alt="Cubo com os três N de Nicolas Ponciano">
 </picture>
 
-[Explorar o cubo em 3D](https://github.com/nicolasponciano/nicolasponciano/blob/main/assets/cubo-n.stl)
-
 Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server. Na [ClienteAPI](https://github.com/nicolasponciano/ClienteAPI), usei C# para integrar o cadastro de clientes ao ViaCEP e permitir a busca por CEP.
 
 ## MarcAi
