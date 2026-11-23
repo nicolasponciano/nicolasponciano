@@ -1,59 +1,74 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/editorial-dark.svg">
-  <img src="assets/editorial-light.svg" width="100%" alt="Nicolas Ponciano — Desenvolvimento de software">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/atlas/dark.svg">
+  <img src="assets/atlas/light.svg" width="100%" alt="Nicolas Ponciano">
 </picture>
 
-Desenvolvo sistemas web corporativos com **.NET e SQL Server**. Também escrevo ferramentas que uso no dia a dia e curso pós-graduação em Inteligência Artificial.
+**Desenvolvedor de software full stack.** Trabalho com .NET e SQL Server em sistemas web corporativos. Também crio ferramentas para usar no dia a dia e curso pós-graduação em Inteligência Artificial.
 
-[Visitar meu portfólio](https://nicolasponciano.github.io/) · [Conversar no LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
+[Portfólio](https://nicolasponciano.github.io/) · [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
 
 ## Projetos
 
-| Projeto | O que construí |
-| :--- | :--- |
-| **MarcAi** | Criei uma agenda por profissional para salões, clínicas e estúdios. [Experimentar a demo](https://marcai-demo.netlify.app/) |
-| **Seirei** | Fiz um aplicativo que mostra uma tarefa por vez e sincroniza o dia entre dispositivos. [Ver o modo foco](https://nicolasponciano.github.io/#projeto/seirei) |
-| **Open Mind** | Escrevi um plugin para consultar minhas notas do Obsidian dentro do OpenCode. [Explorar o plugin](https://github.com/nicolasponciano/open-mind) |
-| **ClienteAPI** | Integrei o cadastro de clientes ao ViaCEP em uma API com C# e .NET 8. [Ler o código](https://github.com/nicolasponciano/ClienteAPI) |
+<a href="#marcai"><img src="assets/atlas/marcai.svg" width="23%" alt="Ir para MarcAi"></a> <a href="#seirei"><img src="assets/atlas/seirei.svg" width="23%" alt="Ir para Seirei"></a> <a href="#open-mind"><img src="assets/atlas/open-mind.svg" width="23%" alt="Ir para Open Mind"></a> <a href="#clienteapi"><img src="assets/atlas/clienteapi.svg" width="23%" alt="Ir para ClienteAPI"></a>
 
-## Decisões de implementação
+### MarcAi
+
+Criei uma agenda para salões, clínicas e estúdios. A página pública de cada estabelecimento mostra os horários disponíveis por profissional e serviço.
+
+[Experimentar o agendamento](https://marcai-demo.netlify.app/) · <sub>Next.js · TypeScript · PostgreSQL</sub>
 
 <details>
-<summary><strong>MarcAi</strong> · Como trato duas tentativas de reservar o mesmo horÃ¡rio?</summary>
+<summary>Como evito duas reservas no mesmo horário?</summary>
 
-<sub>Next.js · TypeScript · PostgreSQL</sub>
+Calculo a disponibilidade a partir da agenda e da duração do serviço. Antes de confirmar, verifico o conflito no servidor. Se o mesmo pedido chegar duas vezes, reconheço a repetição pela chave de idempotência.
 
-Calculo os horÃ¡rios disponÃ­veis a partir da agenda do profissional e da duraÃ§Ã£o do serviÃ§o. Antes de confirmar a reserva, verifico o conflito no servidor. Uso uma chave de idempotÃªncia para reconhecer quando o mesmo pedido chega de novo.
-
-[![Agenda semanal do MarcAi com atendimentos consecutivos na quinta-feira](assets/agenda.png)](https://nicolasponciano.github.io/assets/projects/marcai/02-agenda.png)
+[![Agenda semanal do MarcAi](assets/agenda.png)](https://nicolasponciano.github.io/assets/projects/marcai/02-agenda.png)
 
 </details>
 
+---
+
+### Seirei
+
+Fiz um aplicativo para trabalhar em uma tarefa por vez e continuar de onde parei ao trocar o computador pelo celular.
+
+[Ver o modo foco](https://nicolasponciano.github.io/#projeto/seirei) · <sub>Next.js · TypeScript · Supabase</sub>
+
 <details>
-<summary><strong>Seirei</strong> · O que acontece quando a IA nÃ£o consegue ordenar as tarefas?</summary>
+<summary>E se a IA não conseguir ordenar as tarefas?</summary>
 
-<sub>Next.js · TypeScript · Supabase</sub>
+Guardo a ordem de inserção no Supabase. Confiro a sequência sugerida pela IA contra as tarefas do dia e, se a chamada falhar, uso a ordem original.
 
-Guardo no Supabase a ordem em que as tarefas entraram. Quando a IA sugere uma sequÃªncia, confiro se ela corresponde Ã s tarefas do dia. Se a chamada falhar, o modo foco segue a ordem de inserÃ§Ã£o.
-
-<img src="assets/foco.png" width="520" alt="Tarefa Desenhar a tela de boas-vindas com as opÃ§Ãµes Concluir e Pular">
+<img src="assets/foco.png" width="520" alt="Uma tarefa no modo foco, com as opções Concluir e Pular">
 
 </details>
 
+---
+
+### Open Mind
+
+Escrevi um plugin para consultar minhas notas do Obsidian durante uma sessão do OpenCode.
+
+[Explorar o plugin](https://github.com/nicolasponciano/open-mind) · <sub>TypeScript · Node.js · OpenCode</sub>
+
 <details>
-<summary><strong>Open Mind</strong> · Como controlo a escrita nas notas do Obsidian?</summary>
+<summary>Quando o agente pode alterar uma nota?</summary>
 
-<sub>TypeScript · Node.js · OpenCode</sub>
-
-Limitei a leitura Ã  pasta do vault e deixei a escrita desabilitada por padrÃ£o. Quando autorizo uma alteraÃ§Ã£o, o plugin compara o hash da nota com o da versÃ£o que leu. Assim ele detecta se houve uma ediÃ§Ã£o nesse intervalo.
+Restrinjo a leitura à pasta do vault e deixo a escrita desabilitada por padrão. Quando autorizo uma alteração, o plugin compara o hash atual com o da versão lida para detectar edições feitas nesse intervalo.
 
 </details>
 
+---
+
+### ClienteAPI
+
+Integrei o ViaCEP a uma API de cadastro de clientes. Posso consultar um endereço pelo CEP e localizar clientes cadastrados na mesma região postal.
+
+[Ler a implementação em C#](https://github.com/nicolasponciano/ClienteAPI) · <sub>C# · .NET 8 · SQL Server</sub>
+
 <details>
-<summary><strong>ClienteAPI</strong> · Como uso o CEP no cadastro de clientes?</summary>
+<summary>O que acontece depois da consulta ao ViaCEP?</summary>
 
-<sub>C# · .NET 8 · SQL Server</sub>
-
-Consulto o ViaCEP para validar o CEP informado e obter os dados do endereÃ§o. Salvo o resultado para consultas futuras e uso o CEP tambÃ©m como filtro para encontrar clientes cadastrados.
+Salvo os dados do endereço no SQL Server para consultas futuras. A API também permite usar o CEP como filtro ao listar os clientes.
 
 </details>
