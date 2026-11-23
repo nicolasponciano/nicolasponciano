@@ -22,6 +22,19 @@ Desenvolvi a aplicação com Next.js, TypeScript e PostgreSQL. Os papéis de ace
 
 </details>
 
+### Seirei
+
+Criei o Seirei para focar em uma tarefa por vez. A IA ajuda a ordenar as tarefas do dia, e a lista fica sincronizada entre dispositivos. [Ver no portfólio](https://nicolasponciano.github.io/#seirei-title)
+
+<details>
+<summary>Ver a tela de foco</summary>
+
+![Tela de foco do Seirei](./assets/foco.png)
+
+Desenvolvi o aplicativo com Next.js, TypeScript e Supabase.
+
+</details>
+
 ### Open Mind
 
 Criei um plugin para consultar minhas notas de projeto no Obsidian sem sair do OpenCode. [Ver o código](https://github.com/nicolasponciano/open-mind)
