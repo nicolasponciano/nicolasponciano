@@ -90,17 +90,20 @@ Plugin em TypeScript que permite consultar notas do Obsidian durante uma sessão
 
 **Como funciona** · As notas continuam no Obsidian. O plugin oferece ferramentas de consulta ao OpenCode para recuperar o contexto de um projeto enquanto trabalho nele.
 
+**Teste rápido · Onde anotei a cor do botão?**
+
+| Etapa | Exemplo |
+| --- | --- |
+| ① No Obsidian | Crie a nota `Teste.md` no cofre conectado ao Open Mind. Na primeira linha, escreva **O botão será azul.** |
+| ② No OpenCode | Peça: **Use open_mind_search para buscar “azul” nas minhas notas.** |
+
 <details>
-<summary>Ver uma busca por decisões de agendamento</summary>
+<summary>③ Revelar o resultado esperado</summary>
 
-```json
-{
-  "query": "agendamento",
-  "scope": "projetos"
-}
-```
+**`Teste.md` · linha 1**
+> O botão será azul.
 
-A ferramenta `open_mind_search` devolve o trecho encontrado e o caminho da nota.
+A busca também pode encontrar outras notas que contenham a palavra `azul`.
 
 </details>
 
