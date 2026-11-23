@@ -1,7 +1,15 @@
-# Nicolas Ponciano
+<h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/editorial-dark.svg">
+    <img src="./assets/editorial-light.svg" width="100%" alt="Nicolas Ponciano · Desenvolvimento de software">
+  </picture>
+</h1>
 
-Desenvolvo e mantenho sistemas web corporativos com C# e .NET. Trabalho com APIs, integrações e SQL Server e curso pós-graduação em Inteligência Artificial.  
-**Procurando Vagas** · Busco uma oportunidade como desenvolvedor para trabalhar com sistemas web e APIs.
+**Procurando Vagas** · Desenvolvedor .NET
+
+Desenvolvo e mantenho sistemas web corporativos com **C#, .NET e SQL Server**. Trabalho com APIs e integrações e curso pós-graduação em Inteligência Artificial.
+
+[Projetos em destaque](#projetos-em-destaque)　·　[Stack técnica](#stack-técnica)　·　[Contato](#contato)
 
 ## Projetos em destaque
 
@@ -11,11 +19,28 @@ API em C# e .NET 8 que consulta o endereço pelo CEP durante o cadastro de clien
 
 **Como funciona** · A API procura o CEP no SQL Server antes de chamar o ViaCEP. Quando encontra o endereço no cache, resolve a consulta sem depender do serviço externo.
 
+<details>
+<summary>Ver o caminho de uma consulta por CEP</summary>
+
+```mermaid
+flowchart TD
+    A[Recebe o CEP] --> B{Está no SQL Server?}
+    B -->|Sim| C[Retorna o endereço salvo]
+    B -->|Não| D[Consulta o ViaCEP]
+    D -->|Endereço encontrado| E[Salva no cache e retorna]
+```
+
+</details>
+
 ### [MarcAI](https://marcai-demo.netlify.app/) · Agendamento online
 
-Aplicação em Next.js, TypeScript e PostgreSQL para marcar horários e gerenciar uma agenda. [Experimentar a demo](https://marcai-demo.netlify.app/)
+Aplicação em Next.js, TypeScript e PostgreSQL para marcar horários e gerenciar uma agenda.
 
 **Como funciona** · As permissões seguem o papel de cada usuário. Quem agenda um horário e quem administra a agenda têm acesso a operações diferentes.
+
+[![Agenda do MarcAI](./assets/agenda.png)](https://marcai-demo.netlify.app/)
+
+[Experimentar a demo ↗](https://marcai-demo.netlify.app/)
 
 ### [Seirei](https://seirei.netlify.app/) · Foco e organização de tarefas
 
@@ -23,11 +48,32 @@ Aplicação em Next.js, TypeScript e Supabase que usa IA para sugerir em que ord
 
 **Como funciona** · O servidor envia as tarefas ao modelo e recebe a ordem sugerida em uma resposta estruturada. A interface usa essa sequência para apresentar a lista.
 
+<details>
+<summary>Ver a tela de foco do Seirei</summary>
+
+![Tela de foco do Seirei](./assets/foco.png)
+
+</details>
+
 ### [Open Mind](https://github.com/nicolasponciano/open-mind) · Consulta ao Obsidian pelo OpenCode
 
 Plugin em TypeScript que permite consultar notas do Obsidian durante uma sessão de desenvolvimento.
 
 **Como funciona** · As notas continuam no Obsidian. O plugin oferece ferramentas de consulta ao OpenCode para recuperar o contexto de um projeto enquanto trabalho nele.
+
+<details>
+<summary>Ver uma busca por decisões de agendamento</summary>
+
+```json
+{
+  "query": "agendamento",
+  "scope": "projetos"
+}
+```
+
+A ferramenta `open_mind_search` devolve o trecho encontrado e o caminho da nota.
+
+</details>
 
 Também desenvolvo o [bug-hunter](https://github.com/nicolasponciano/bug-hunter), um agente de revisão de código para Codex e OpenCode.
 
