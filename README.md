@@ -3,28 +3,13 @@
   <img src="assets/capa-light.png" width="100%" alt="Nicolas Ponciano e o cubo com os três N">
 </picture>
 
-Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server. Na ClienteAPI, integrei o cadastro de clientes ao ViaCEP para consultar endereços e buscar clientes pelo CEP.
+Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server.
 
-**[Ver a API de clientes em C#](https://github.com/nicolasponciano/ClienteAPI)** · [Meu portfólio](https://nicolasponciano.github.io/) · [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
+[Meu portfólio](https://nicolasponciano.github.io/) · [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
 
-## MarcAi
+## Projetos
 
-Criei uma agenda para salões, clínicas e estúdios. Os horários disponíveis dependem do profissional e da duração do serviço. Antes de confirmar a reserva, verifico no servidor se outra pessoa já marcou aquele horário.
-
-[![Agenda semanal do MarcAi com blocos de atendimento por horário](assets/agenda.png)](https://marcai-demo.netlify.app/)
-
-[Experimentar o agendamento](https://marcai-demo.netlify.app/) · [Como construí o MarcAi com Next.js, TypeScript e PostgreSQL](https://nicolasponciano.github.io/#projeto/marcai)
-
-## Seirei
-
-Fiz o Seirei para acompanhar uma tarefa por vez, no computador ou no celular. A IA sugere por onde começar. Se a chamada falhar, o aplicativo segue a ordem em que as tarefas foram adicionadas.
-
-<a href="https://nicolasponciano.github.io/#projeto/seirei"><img src="assets/foco.png" width="520" alt="Tarefa Desenhar a tela de boas-vindas, com as opções Concluir e Pular"></a>
-
-[Ver o Seirei no portfólio](https://nicolasponciano.github.io/#projeto/seirei) · Next.js, TypeScript e Supabase
-
-## Open Mind
-
-Escrevi um plugin em TypeScript para consultar minhas notas do Obsidian dentro do OpenCode. Limitei a busca à pasta do vault e deixei a escrita desabilitada por padrão.
-
-[Ler o código do Open Mind](https://github.com/nicolasponciano/open-mind)
+- **MarcAi** — Criei uma plataforma de agendamento para salões, clínicas e estúdios. Os horários disponíveis levam em conta o profissional e a duração do serviço. [Experimentar a demo](https://marcai-demo.netlify.app/)
+- **Seirei** — Desenvolvi um aplicativo de foco que mostra uma tarefa por vez e sincroniza a lista entre o celular e o computador. [Ver as telas no portfólio](https://nicolasponciano.github.io/#projeto/seirei)
+- **Open Mind** — Escrevi um plugin em TypeScript para consultar notas do Obsidian dentro do OpenCode. A busca fica restrita à pasta do vault. [Ler o código do plugin](https://github.com/nicolasponciano/open-mind)
+- **ClienteAPI** — Integrei o cadastro de clientes ao ViaCEP em uma API com C#, .NET e SQL Server. Ela permite consultar endereços e buscar clientes pelo CEP. [Ler o código da API](https://github.com/nicolasponciano/ClienteAPI)
