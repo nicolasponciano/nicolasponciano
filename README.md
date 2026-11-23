@@ -1,15 +1,13 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
-  <img src="assets/logo-light.svg" width="44" alt="Monograma de Nicolas Ponciano">
+  <source media="(max-width: 600px)" srcset="assets/painel-360.png">
+  <img width="100%" src="assets/painel-960.png" alt="Nicolas Ponciano. Desenvolvo sistemas web com .NET e SQL Server. Painel de repositórios públicos, linguagens e atividade no GitHub.">
 </picture>
 
-# Nicolas Ponciano
+<details><summary>Ler os dados do painel</summary>
 
-## Sobre mim
+62 contribuições · 2025-11-23 a 2026-11-23. Tenho 24 repositórios públicos. Minha maior sequência nesse período foi de 8 dias. Linguagens por volume de código nos meus repositórios públicos, excluindo forks: JavaScript 39.9%, C# 23.7%, ASP.NET 12.8%, TypeScript 9.8%.
 
-- 💻 Desenvolvo sistemas web corporativos com .NET e SQL Server, com foco em APIs e integrações.
-- 🛠️ Uso TypeScript nos meus projetos, da agenda do MarcAi ao plugin Open Mind para o OpenCode.
-- 🎓 Curso pós-graduação em Inteligência Artificial.
+</details>
 
 [Meu portfólio](https://nicolasponciano.github.io/) · [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
 
