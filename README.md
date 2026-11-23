@@ -3,13 +3,13 @@
   <img src="assets/capa-light.png" width="100%" alt="Nicolas Ponciano e o cubo com os três N">
 </picture>
 
-Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server.
+Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server. Também escrevo ferramentas para o meu dia a dia, como o Open Mind, que uso para consultar minhas notas durante o desenvolvimento.
 
 [Meu portfólio](https://nicolasponciano.github.io/) · [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
 
 ## Projetos
 
-- **MarcAi** — Criei uma agenda para salões, clínicas e estúdios em que cada profissional tem seus próprios horários. [Experimentar o agendamento](https://marcai-demo.netlify.app/)
+- **MarcAi** — Criei uma agenda para salões, clínicas e estúdios. Quem vai marcar um horário escolhe o serviço e vê a disponibilidade do profissional. [Experimentar o agendamento](https://marcai-demo.netlify.app/)
 
   <details>
   <summary>Como trato duas tentativas de reservar o mesmo horário?</summary>
@@ -20,7 +20,7 @@ Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server.
 
   </details>
 
-- **Seirei** — Fiz um aplicativo que mostra uma tarefa por vez e sincroniza o dia entre o celular e o computador. [Ver as telas do aplicativo](https://nicolasponciano.github.io/#projeto/seirei)
+- **Seirei** — Fiz um aplicativo que mostra uma tarefa por vez e mantém a lista sincronizada entre o celular e o computador. [Conhecer o modo foco no portfólio](https://nicolasponciano.github.io/#projeto/seirei)
 
   <details>
   <summary>O que acontece quando a IA não consegue ordenar as tarefas?</summary>
@@ -31,7 +31,7 @@ Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server.
 
   </details>
 
-- **Open Mind** — Escrevi um plugin em TypeScript para consultar minhas notas do Obsidian dentro do OpenCode. [Ler o código do plugin](https://github.com/nicolasponciano/open-mind)
+- **Open Mind** — Escrevi um plugin em TypeScript para consultar minhas notas do Obsidian dentro do OpenCode. [Explorar o plugin para OpenCode](https://github.com/nicolasponciano/open-mind)
 
   <details>
   <summary>Como controlo a escrita nas notas do Obsidian?</summary>
@@ -40,7 +40,7 @@ Desenvolvo e mantenho sistemas web corporativos com .NET e SQL Server.
 
   </details>
 
-- **ClienteAPI** — Desenvolvi uma API de cadastro de clientes em C# e .NET 8, com dados de contato e endereço no SQL Server. [Ler o código da API](https://github.com/nicolasponciano/ClienteAPI)
+- **ClienteAPI** — Integrei o ViaCEP a uma API em C# e .NET 8 para cadastrar clientes e buscar endereços por CEP. Uso SQL Server para guardar os dados. [Ver a implementação em C#](https://github.com/nicolasponciano/ClienteAPI)
 
   <details>
   <summary>Como uso o CEP no cadastro de clientes?</summary>
