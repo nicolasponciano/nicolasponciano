@@ -5,21 +5,21 @@
 
 # Nicolas Ponciano
 
-Desenvolvo sistemas web corporativos com .NET e SQL Server. Nos meus projetos, também uso TypeScript para criar aplicativos e ferramentas que uso no dia a dia.
+## Sobre mim
 
-```ts
-const meuPerfil = {
-  atuacao: "Desenvolvimento full stack",
-  trabalhoCom: ["APIs", "Integrações", "Bancos relacionais"],
-  estouEstudando: "Pós-graduação em Inteligência Artificial",
-};
-```
+- 💻 Desenvolvo sistemas web corporativos com .NET e SQL Server, com foco em APIs e integrações.
+- 🛠️ Uso TypeScript nos meus projetos, da agenda do MarcAi ao plugin Open Mind para o OpenCode.
+- 🎓 Curso pós-graduação em Inteligência Artificial.
 
 [Meu portfólio](https://nicolasponciano.github.io/) · [LinkedIn](https://www.linkedin.com/in/nicolas-ponciano/)
 
+---
+
 ## Tecnologias que uso
 
-<code><img height="32" width="32" src="assets/tecnologias/csharp.png" alt="C#"></code> <code><img height="32" width="32" src="assets/tecnologias/typescript.png" alt="TypeScript"></code> <code><img height="32" width="32" src="assets/tecnologias/javascript.png" alt="JavaScript"></code> <code><img height="32" width="32" src="assets/tecnologias/nodejs.png" alt="Node.js"></code>
+<code><img height="32" width="32" src="assets/tecnologias/csharp.png" alt="C#" title="C#"></code> <code><img height="32" width="32" src="assets/tecnologias/dotnetcore.svg" alt=".NET" title=".NET"></code> <code><img height="32" width="32" src="assets/tecnologias/microsoftsqlserver.svg" alt="SQL Server" title="SQL Server"></code> <code><img height="32" width="32" src="assets/tecnologias/typescript.png" alt="TypeScript" title="TypeScript"></code> <code><img height="32" width="32" src="assets/tecnologias/javascript.png" alt="JavaScript" title="JavaScript"></code> <code><img height="32" width="32" src="assets/tecnologias/nodejs.png" alt="Node.js" title="Node.js"></code> <code><img height="32" width="32" src="assets/tecnologias/postgresql.svg" alt="PostgreSQL" title="PostgreSQL"></code>
+
+---
 
 ## Meus projetos
 
