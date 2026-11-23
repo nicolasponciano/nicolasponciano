@@ -9,7 +9,7 @@
 
 Desenvolvo e mantenho sistemas web corporativos com **C#, .NET e SQL Server**. Trabalho com APIs e integrações e curso pós-graduação em Inteligência Artificial.
 
-[Projetos em destaque](#projetos-em-destaque)　·　[Stack técnica](#stack-técnica)　·　[Contato](#contato)
+[Projetos em destaque](#projetos-em-destaque)　·　[Experiência profissional](#experiência-profissional)　·　[Stack técnica](#stack-técnica)　·　[Contato](#contato)
 
 ## Projetos em destaque
 
@@ -107,6 +107,16 @@ A ferramenta `open_mind_search` devolve o trecho encontrado e o caminho da nota.
 [Explorar a implementação de open_mind_search](https://github.com/nicolasponciano/open-mind/search?q=open_mind_search&type=code)
 
 Também desenvolvo o [bug-hunter](https://github.com/nicolasponciano/bug-hunter), um agente de revisão de código para Codex e OpenCode.
+
+## Experiência profissional
+
+Atuo no desenvolvimento e na manutenção de sistemas web corporativos, do levantamento de requisitos ao suporte em produção. Meu trabalho inclui implementar integrações com APIs, testar alterações e acompanhar a publicação de novas versões.
+
+| Período | Cargo | Empresa |
+| --- | --- | --- |
+| Fev. 2026 – atual | Desenvolvedor de Software Júnior | Empresa do setor de tecnologia · Rio de Janeiro |
+| Jul. 2025 – fev. 2026 | Desenvolvedor de Software Júnior | SOFTCASE Soluções Tecnológicas · Santos |
+| Jul. 2024 – jul. 2025 | Estágio em Desenvolvimento de Software | SOFTCASE Soluções Tecnológicas · São Vicente |
 
 ## Stack técnica
 
