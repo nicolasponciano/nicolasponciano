@@ -13,11 +13,34 @@ Desenvolvo e mantenho sistemas web corporativos com **C#, .NET e SQL Server**. T
 
 ## Projetos em destaque
 
+| O que você quer explorar? | Comece aqui |
+| --- | --- |
+| Integrações em .NET | [Acompanhar um CEP pelo cache](#consulta-cep) |
+| Uma aplicação em uso | [Experimentar a agenda do MarcAI](https://marcai-demo.netlify.app/) |
+| IA em um fluxo de trabalho | [Ver como o Seirei organiza o dia](#foco-seirei) |
+| Ferramentas para desenvolvedores | [Explorar uma consulta ao Obsidian](#busca-obsidian) |
+
+<a name="consulta-cep"></a>
+
 ### [ClienteAPI](https://github.com/nicolasponciano/ClienteAPI) · Cadastro de clientes
 
 API em C# e .NET 8 que consulta o endereço pelo CEP durante o cadastro de clientes.
 
-**Como funciona** · A API procura o CEP no SQL Server antes de chamar o ViaCEP. Quando encontra o endereço no cache, resolve a consulta sem depender do serviço externo.
+Imagine dois cadastros com o mesmo CEP válido. Abra cada consulta para acompanhar o que acontece.
+
+<details>
+<summary>Primeiro cadastro · O CEP ainda não existe no cache</summary>
+
+A API procura o CEP no SQL Server, consulta o ViaCEP e grava o endereço retornado. Esse registro fica disponível para os próximos cadastros.
+
+</details>
+
+<details>
+<summary>Segundo cadastro · O CEP já está salvo</summary>
+
+A API encontra o endereço no SQL Server e o devolve diretamente. Os dois cadastros recebem o endereço, mas só o primeiro precisa consultar o ViaCEP.
+
+</details>
 
 <details>
 <summary>Ver o caminho de uma consulta por CEP</summary>
@@ -42,6 +65,8 @@ Aplicação em Next.js, TypeScript e PostgreSQL para marcar horários e gerencia
 
 [Experimentar a demo ↗](https://marcai-demo.netlify.app/)
 
+<a name="foco-seirei"></a>
+
 ### [Seirei](https://seirei.netlify.app/) · Foco e organização de tarefas
 
 Aplicação em Next.js, TypeScript e Supabase que usa IA para sugerir em que ordem fazer as tarefas.
@@ -54,6 +79,10 @@ Aplicação em Next.js, TypeScript e Supabase que usa IA para sugerir em que ord
 ![Tela de foco do Seirei](./assets/foco.png)
 
 </details>
+
+[Abrir o Seirei ↗](https://seirei.netlify.app/)
+
+<a name="busca-obsidian"></a>
 
 ### [Open Mind](https://github.com/nicolasponciano/open-mind) · Consulta ao Obsidian pelo OpenCode
 
@@ -74,6 +103,8 @@ Plugin em TypeScript que permite consultar notas do Obsidian durante uma sessão
 A ferramenta `open_mind_search` devolve o trecho encontrado e o caminho da nota.
 
 </details>
+
+[Explorar a implementação de open_mind_search](https://github.com/nicolasponciano/open-mind/search?q=open_mind_search&type=code)
 
 Também desenvolvo o [bug-hunter](https://github.com/nicolasponciano/bug-hunter), um agente de revisão de código para Codex e OpenCode.
 
@@ -96,3 +127,5 @@ Também desenvolvo o [bug-hunter](https://github.com/nicolasponciano/bug-hunter)
   ![Estatísticas de Nicolas Ponciano no GitHub](https://github-readme-stats.vercel.app/api?username=nicolasponciano&locale=pt-br&theme=transparent&hide_border=true&hide_rank=true&show_icons=false)
 
 </details>
+
+[↑ Voltar aos projetos](#projetos-em-destaque)
