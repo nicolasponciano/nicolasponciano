@@ -5,7 +5,7 @@
   </picture>
 </h1>
 
-**Procurando Vagas** · Desenvolvedor .NET
+**Desenvolvedor Fullstack**  
 
 Desenvolvo e mantenho sistemas web corporativos com **C#, .NET e SQL Server**. Trabalho com APIs e integrações e curso pós-graduação em Inteligência Artificial.
 
