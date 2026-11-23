@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="28" viewBox="0 0 128 28">
+  <title>Classic ASP</title>
+  <rect x=".5" y=".5" width="127" height="27" rx="5" fill="#132c33" stroke="#54747a"/>
+  <path d="M3 4h14v12H3z m3 5 2 2-2 2 m4 0h4" transform="translate(5 4)" fill="none" stroke="#52dcd1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="30" y="18.5" fill="#fff" font-family="system-ui,sans-serif" font-size="12" font-weight="600">Classic ASP</text>
+</svg>
